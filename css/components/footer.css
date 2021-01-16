@@ -1,0 +1,35 @@
+footer {
+  background-color: #2c2b2b;
+  color: rgb(150,150,150);
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer ul li {
+  color: #1ddd88;
+  transition: 0.5s;
+  font-size: 30px;
+}
+
+footer ul li:hover {
+  color: white;
+}
+
+.footer-content {
+  display: block;
+  position: relative;
+  text-align: center;
+  /*top: 30px;*/
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
